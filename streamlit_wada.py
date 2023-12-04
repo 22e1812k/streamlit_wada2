@@ -146,7 +146,7 @@ else :
 from datetime import datetime
 
 chat_log = []
-
+st.title('チャット')
 st.write('ここでキャンプ好き信大生とはなそうよ')
 
 message = st.text_input("メッセージを入力してください:")
